@@ -1,0 +1,113 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 500px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Panorama_su_Tursi.jpg/1200px-Panorama_su_Tursi.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main-section h1 {
+    font-family: "Prata", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.main-section h3 {
+    font-family: "Prata", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+h6 {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    background: linear-gradient(45deg, #5886cb, #c8d8e6);
+    border-radius: 6px;
+}
+
+#h6_pg1 {
+    background: linear-gradient(45deg, #171117, #c6bdb8);
+}
+
+#h6_pg2 {
+    background: linear-gradient(45deg, #7b6135, #aaa7a5);
+}
+
+#h6_pg3 {
+    background: linear-gradient(94deg, #4d8bcd, #dac491);
+}
+
+#h6_pg4 {
+    background: linear-gradient(45deg, #312113, #a3a89f);
+}
+
+#h6_pg5 {
+    background: linear-gradient(45deg, #7a705b, #88acc6);
+}
+
+.main-section a {
+    font-family: "Prata", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+p > a {
+    text-decoration: none;
+}
+
+p > a:hover {
+    outline: 0.1px solid red;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul>li {
+    padding: 6px 0;
+    padding-left: 22px;
+    border-bottom: dashed 1px;
+    border-color: #dfdfdf;
+    list-style-type: none;
+}
+
+ul a:visited {
+    color: #5886cb;
+} 
+
+ul a:hover {
+    color: red;
+}
+
+.img-page {
+    height: 100%;
+}
+
+footer {
+    background-color: black;
+    padding: 16px;
+    text-align: center;
+}
+
+footer>a {
+    color: white;
+    text-decoration: none;
+}
